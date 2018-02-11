@@ -1,0 +1,213 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+}
+
+.slider {
+    overflow: hidden;
+    height: 500px;
+}
+
+    .slider figure div {
+        width: 20%;
+        float: left;
+    }
+
+    .slider figure img {
+        width: 100%;
+        float: left;
+       
+    }
+
+    .slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slidy infinite;
+    }
+
+@keyframes slidy {
+    0% {
+        left: 0%
+    }
+
+    0% {
+        left: 0%;
+    }
+
+    10% {
+        left: -100%;
+    }
+
+    20% {
+        left: -100%;
+    }
+
+    30% {
+        left: -200%;
+    }
+
+    40% {
+        left: -200%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    60% {
+        left: -200%;
+    }
+
+    70% {
+        left: -100%;
+    }
+
+    80% {
+        left: -100%;
+    }
+
+    90% {
+        left: 0%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 100px;
+    box-sizing :border-box;
+    transition: .3s;
+    z-index:1000;
+
+}
+
+nav .black{
+    background: rgba(0,0,0,0.8);
+    height:100px;
+    padding :10px 100px;
+
+}
+
+
+    nav .logo {
+        padding: 0px 24px;
+        float: left;
+        font-size: 24px;
+        transition: .3s;
+        
+    }
+
+    nav .logo img {
+        
+        height:100px;
+    }
+
+
+
+nav .black .logo{
+    color:#fff;
+
+}
+
+    nav ul {
+        list-style: none;
+        float: right;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+    }
+
+    nav ul li {
+        list-style:none;
+              }
+        nav ul li a {
+            line-height: 80px;
+            color: #151515;
+            padding: 12px 30px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: .3s;
+        }
+
+
+    nav .black ul li a{
+        color: #fff;
+    }
+
+    nav ul li a :focus{
+        outline:none;
+    }
+
+    nav ul li a.active {
+        background:#E2472F;
+        color:#fff;
+        border-radius: 6px;
+
+    }
+
+    .sec1{
+        margin-top:80px;
+
+    }
+
+
+    .sec1 p {
+        width :990px;
+        margin: 30px auto;
+        text-align:justify;
+        font-size:20px;
+        line-height:30px;
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
